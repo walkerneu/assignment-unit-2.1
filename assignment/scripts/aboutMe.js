@@ -52,7 +52,7 @@ console.log ( allowedPets );
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = 'wow';
+let result;
 if (adventurous = true){
   result = 'Adventures are great!';
 }
@@ -79,7 +79,7 @@ console.log ( diceRoll );
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-let petStatus = 'wow'
+let petStatus;
 if (pets < allowedPets){
   petStatus = 'I can have more pets';
 }
@@ -99,7 +99,7 @@ console.log ( petStatus );
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
-let mostPets = 0;
+let mostPets;
 if (pets >= friendsPets){
   mostPets = pets;
 }
