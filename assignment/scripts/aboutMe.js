@@ -119,6 +119,15 @@ console.log ( mostPets );
 //      console.log `luckyResult` after the conditional has run.
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+// 12 - Create a variable called `result`. Create a conditional:
+//      if adventurous is true, set `result` to be "Adventures are great!", 
+//      if it's not true,  set `result` to be "How about we stay home?"
+//      Console log the value of `result`
+
+
+result =
+  adventurous === true ? 'Adventures are great!' : 'How about we stay home?';
+console.log ( result ); 
 
 
 
